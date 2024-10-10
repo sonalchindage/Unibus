@@ -1,0 +1,116 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+header {
+    background-color: #025949;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+}
+
+.header-content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#logo {
+    width: 150px;
+    height: auto; /* Maintain aspect ratio */
+}
+
+.header-text {
+    margin-left: 20px;
+    color: #fff; /* Text color to match the header background */
+    font-size: 16px; /* Adjust font size as needed */
+    text-align: left;
+}
+
+.header-text p {
+    margin: 0;
+    line-height: 1.2; /* Adjust line height for better spacing */
+}
+#ACITE {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-left: 120px; /* Adjust as needed */
+    margin-right: 20px; /* Adjust as needed */
+}
+
+#gov {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-left: 20px; /* Adjust as needed */
+}
+
+#university {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-left: 35px; /* Adjust as needed */
+}
+
+nav ul {
+    list-style-type: none;
+    background-color: #333;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li {
+    float: left;
+}
+
+nav ul li a {
+    display: block;
+    color: white;
+    padding: 14px 20px;
+    text-decoration: none;
+}
+
+nav ul li a:hover {
+    background-color: #555;
+}
+
+.title-background {
+    background-image: url('images.jfif'); /* Ensure this points to the correct file */
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding: 20px;
+    color: white;
+    text-shadow: 2px 2px 4px rgba(0,0,0,0.5);
+    text-align: center;
+    height: 300px; /* Set a fixed height or adjust as needed */
+}
+
+.container {
+    flex: 1; /* Allows the container to grow and fill available space */
+    padding: 20px;
+}
+
+main {
+    padding: 20px;
+    text-align: center;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
